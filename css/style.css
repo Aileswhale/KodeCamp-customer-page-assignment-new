@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.flex-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
+}
+.right-div, .left-div {
+    width: 40% ;
+    justify-content: space-between;
+}
+.right-div h2{
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1E1B1B;
+
+}
+.right-div p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1E1B1B;
+
+
+}
+
+.left-div .left-div-one img{
+    width: 72px;
+    height: 72px;
+
+}
+
+.left-div  h3{
+    margin: 15px;
+    font-size: 32px;
+    font-weight: 700 bold;
+    color: #1E1B1B;
+
+}
+
+.left-div p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600 ;
+    color: #1E1B1B;
+    border-left: 1px dashed orange;
+    padding-left: 55px;
+    position: relative;
+    left: -9%;
+
+}
+.left-div-three p{
+    border: none;
+}
+.section-2{
+    min-height: 100vh;
+    background: #F2F2F2;
+   
+
+}
+
+.containing-section-2{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+
+
+}
+   
+.first-paragraph p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1B1B;
+    text-align: center;
+    
+}
+.first-paragraph h2{
+    font-size: 58px;
+    font-weight: 800;
+    color: #1E1B1B;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.first-image-container{
+    display: flex;
+}
+.second-image-container{
+   display: flex;
+}
+.main-image-container  .icon{
+    width: 316px;
+    height: 232px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+   
+
+
+}
+.first-image-container  .icon-3{
+    width: 316px;
+    height: 232px;
+    margin: 10px;
+    background: #FF6433;
+    text-align: center;
+}
+.main-image-container img {
+    width: 46px;
+    height: 46px;
+    color: black;
+   position: relative;
+   top: 28%;
+}
+.main-image-container p{
+    position: relative;
+    top: 30%;
+}
+.main-image-container  .icon:hover,
+.main-image-container  .icon:active{
+    background: #FF6433;
+    color: white;
+}
+.link a{
+    text-decoration: none;
+    color:#1E1B1B;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 20px;
+    
+}
+.link{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.link img{
+    width: 52px;
+    position: relative;
+    top: 3px;
+}
+.section-3-main-container{
+    background: #F2F2F2;
+    position: relative;
+}
+.images-container{
+    width: 100%;
+}
+
+.image-1 {
+    background: url("../img/Image-1.jpg");
+    width: 100%;
+    height: 502px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-origin: border-box;
+}
+.image-2  {
+    background: url("../img/image-2.jpg");
+    width: 100%;
+    height: 502px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-origin: border-box;
+}
+.wright-up{
+    background: #FF6433;
+    width: 600px;
+    height: 502px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 350px;
+
+
+}
+.wright-up h3{
+    position: relative;
+    top: 30%;
+    font-size: 38px;
+    font-weight: 600;
+    padding: 0px 30px ;
+
+}
+.footer{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+
+}
+.footer div {
+    margin-left: 100px;
+}
+
+.footer h2{
+    font-weight: 800;
+    font-size: 58px;
+    color: #661CE7;
+}
+.footer p{
+    font-weight: 600;
+    font-size: 24px;
+    color: #1E1B1B;
+}
+.section-4-container{
+    width: 100%;
+}
+.brand{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1E1B1B;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.logo-container{
+    width: 70%;
+    margin: 0 auto;
+}
+.section-4-container{
+    background: #FAFAFA;
+
+}
+.logo-container img {
+    width: 100%;
+}
+
+
+
